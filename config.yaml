@@ -113,8 +113,13 @@ vice:
   xpath: //div[@class="article-content"]
   pic: default
 
-bbc:
+bbccn:
   url: http://feeds.bbci.co.uk/zhongwen/simp/rss.xml
+  xpath: //div[@property="articleBody"]
+  pic: default
+  
+bbctw:
+  url: http://feeds.bbci.co.uk/zhongwen/trad/rss.xml
   xpath: //div[@property="articleBody"]
   pic: default
 
@@ -123,7 +128,7 @@ nytimes:
   xpath: //div[@id="content"]
   pic: default
 
-cnengadget:
+engadgethk:
   url: http://chinese.engadget.com/rss.xml
   xpath: //div[@class="grid__cell col-12-of-15@d "]
   pic: default
@@ -137,3 +142,5 @@ economist:
   url: http://www.economist.com/feeds/print-sections/103/special-reports.xml
   xpath: //div[@class="main-content__clearfix"]
   pic: default
+  
+  
