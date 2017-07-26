@@ -122,3 +122,13 @@ nytimes:
   url: https://cn.nytimes.com/rss.html
   xpath: //div[@id="content"]
   pic: default
+
+cnengadget:
+  url: http://chinese.engadget.com/rss.xml
+  xpath: //div[@class="grid__cell col-12-of-15@d "]
+  pic: default
+
+typeisbeautiful:
+  url: http://feeds.feedburner.com/typeisbeautiful
+  xpath: //div[@class="entry-content"]
+  pic: default
