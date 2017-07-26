@@ -132,3 +132,13 @@ typeisbeautiful:
   url: http://feeds.feedburner.com/typeisbeautiful
   xpath: //div[@class="entry-content"]
   pic: default
+
+ftcn:
+  url: http://www.ftchinese.com/rss/feed
+  xpath: //div[@class="story-container"]
+  pic: default
+
+economist:
+  url: http://www.economist.com/feeds/print-sections/103/special-reports.xml
+  xpath: //div[@class="main-content__clearfix"]
+  pic: default
