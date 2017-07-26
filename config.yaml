@@ -128,11 +128,6 @@ cnengadget:
   xpath: //div[@class="grid__cell col-12-of-15@d "]
   pic: default
 
-typeisbeautiful:
-  url: http://feeds.feedburner.com/typeisbeautiful
-  xpath: //div[@class="entry-content"]
-  pic: default
-
 ftcn:
   url: http://www.ftchinese.com/rss/feed
   xpath: //div[@class="story-container"]
