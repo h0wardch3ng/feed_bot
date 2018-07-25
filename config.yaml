@@ -123,8 +123,13 @@ bbctw:
   xpath: //div[@property="articleBody"]
   pic: default
 
-nytimes:
+nytimescn:
   url: https://cn.nytimes.com/rss.html
+  xpath: //div[@id="content"]
+  pic: default
+
+nytimeshk:
+  url: https://cn.nytimes.com/rss/zh-hant/
   xpath: //div[@id="content"]
   pic: default
 
@@ -142,5 +147,3 @@ economist:
   url: http://www.economist.com/feeds/print-sections/103/special-reports.xml
   xpath: //div[@class="main-content__clearfix"]
   pic: default
-  
-  
